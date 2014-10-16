@@ -15,18 +15,20 @@ BuildRequires: gcc-c++
 BuildRequires: python2-devel
 BuildRequires: libffi
 BuildRequires: python-cffi
+BuildRequires: openssl-devel
 
 Requires: pyOpenSSL
 Requires: pycryptopp
-Requires: python-foolscap
-Requires: python-service-identity
-Requires: python-pyasn1
-Requires: python-zfec
 Requires: python-crypto
-Requires: python-nevow
+Requires: python-foolscap
 Requires: python-mock
+Requires: python-nevow
+Requires: python-pyasn1
+Requires: python-service-identity
+Requires: python-setuptools
 Requires: python-simplejson
 Requires: python-twisted
+Requires: python-zfec
 Requires: python-zope-interface
 
 %prep
