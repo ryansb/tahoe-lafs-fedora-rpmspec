@@ -3,8 +3,8 @@
 %endif
 
 Name:           python-service-identity
-Version:        14.0.0
-Release:        1%{?dist}
+Version:        1.0.0
+Release:        2%{?dist}
 Summary:        Service identity verification for pyOpenSSL
 
 License:        MIT
